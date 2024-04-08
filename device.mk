@@ -53,5 +53,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.xiaomi
 
+#Gcam
+PRODUCT_PACKAGES += \
+    Gcam
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/venus/venus-vendor.mk)

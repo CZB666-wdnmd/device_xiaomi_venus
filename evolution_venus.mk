@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/venus/device.mk)
 # Inherit some common Evolution X stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
-EVO_BUILD_TYPE := OFFICIAL
+EVO_BUILD_TYPE := UNOFFICIAL
 TARGET_SUPPORTS_QUICK_TAP := true
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_BUILD_APERTURE_CAMERA := false
